@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(assets\fonts\static\Inter-ExtraBold.ttf) format("truetype");
+  font-family: Inter-Regular;
+  src: url(assets\fonts\static\Inter-Regular.ttf) format("truetype");
+
+  font-family: Inter-Bold;
+  src: url(assets\fonts\static\Inter-Bold.ttf) format("truetype");
+}
+.main {
+  background: hsl(36, 100%, 99%);
+  padding: 50px 60px 70px 60px;
+}
+.nav-bar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: Regular;
+}
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+  list-style: none;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  padding: 0px 8px;
+  color: hsl(236, 13%, 42%);
+  font-family: Regular;
+}
+.nav-links ul li a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.list-icon {
+  display: none;
+}
+.offcanvas-body ul {
+  list-style: none;
+}
+.offcanvas-body ul li a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+#desk {
+  display: block;
+}
+#mobile {
+  display: none;
+}
+.con {
+  display: flex;
+}
+.subsubcon {
+  display: flex;
+  margin: 15px 0px 0px 0px;
+}
+.bright {
+  width: 220px;
+  /* margin: 0px; */
+  font-family: Inter-ExtraBold;
+
+}
+.drive {
+  width: 290px;
+  font-family: Regular;
+  font-size: medium;
+  margin: 0px 0px 0px 60px;
+}
+.drive button {
+  padding: 5px 28px;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  font-family: Inter-Bold;
+}
+.drive button:hover {
+  background: #000;
+  color: hsl(36, 100%, 99%);
+}
+.subcon2 {
+  background-color: hsl(240, 100%, 5%);
+  padding: 8px;
+  width: 300px;
+  margin-left: 5px;
+}
+.subcon2 h4 {
+  color: hsl(35, 77%, 62%);
+  font-family: Bold;
+}
+.subcon2 #h5 {
+  color: hsl(36, 100%, 99%);
+  margin: 10px 0px 0px 0px;
+  font-family: Bold;
+}
+.subcon2 #h5:hover {
+  color: hsl(35, 77%, 62%);
+}
+.subcon2 p {
+  color: hsl(236, 13%, 42%);
+  padding: 0px 0px 0px 0px;
+  font-family: Regular;
+  font-size: medium;
+}
+hr {
+  color: hsl(36, 100%, 99%);
+}
+.con2 {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+  color: hsl(236, 13%, 42%);
+
+  /* grid-template-columns: auto auto auto; */
+}
+.one,
+.two,
+.three {
+  display: flex;
+}
+
+.text {
+  width: 200px;
+  margin: 0px 0px 0px 15px;
+}
+.con2 #h5 {
+  color: hsl(240, 100%, 5%);
+  margin: 0px;
+  font-family: Regular;
+}
+
+.con2 #h5:hover {
+  color: hsl(5, 85%, 63%);
+}
+.con2 h5 {
+  color: hsl(5, 85%, 63%);
+}
+.text {
+  font-size: small;
+}
+.text p {
+  width: 170px;
+}
+@media (max-width: 375px) {
+  .main {
+    background: hsl(36, 100%, 99%);
+    padding: 15px 15px 15px 15px;
+  }
+  .nav-bar {
+    justify-content: space-between;
+    margin: 0px;
+  }
+  .nav-links ul li {
+    display: none;
+  }
+  .list-icon {
+    display: block;
+  }
+  .nav-links ul {
+    display: block;
+  }
+  .con {
+    display: block;
+  }
+  #desk {
+    display: none;
+  }
+  #mobile {
+    display: block;
+  }
+  .subsubcon {
+    display: block;
+  }
+  .subcon2 {
+    margin: 30px 0px;
+    width: 330px;
+  }
+  .drive {
+    margin: 0px 0px 0px 0px;
+  }
+  .con2 {
+    display: block;
+    
+  }
+}
